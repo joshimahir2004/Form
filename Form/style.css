@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --bg: #2c2c2c;
+  --blue: rgb(27, 190, 255);
+}
+body {
+  background-color: var(--bg);
+  background-image: url(img/unsplash_mBQIfKlvowM.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.box {
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 10%;
+  margin-inline: auto;
+  width: 20vw;
+  height: 70vh;
+  background-color: rgba(2, 2, 2, 0.336);
+  color: white;
+}
+#title-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  cursor: default;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.103);
+}
+form {
+  position: relative;
+  padding-top: 2rem;
+  margin-top: 1, 5rem;
+  height: 70%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+.name {
+  border-bottom: 1px solid black;
+  cursor: default;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  margin: 1rem 0;
+}
+#surname:hover #Ssname {
+  display: inline;
+}
+
+#Ssname {
+  display: none;
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.473);
+}
+form input {
+  width: auto;
+  height: 2rem;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 1.3rem;
+  border-bottom: 1px solid rgb(70, 70, 70);
+  font-weight: 900;
+  color: white;
+}
+
+::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.308);
+  border: none;
+  font-size: 1.3rem;
+
+
+}
+#fbtn {
+  position: absolute;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  margin-top: 3rem;
+  background: var(--blue);
+  color: white;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+#fbtn:hover {
+  transition: 0.5s;
+  background-color: white;
+  color: var(--blue);
+}
+#fbtn:active {
+  transition: 0s;
+  transform: translateY(1px);
+}
+#demo{
+  border-left: 5px solid var(--blue);
+  margin-right: 5rem;
+  text-align: center;
+  cursor: pointer;
+}
